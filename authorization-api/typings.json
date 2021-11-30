@@ -1,0 +1,25 @@
+{
+  "name": "app",
+  "dependencies": {
+    "bcrypt": "registry:dt/bcrypt#1.0.0+20161217125511",
+    "body-parser": "registry:dt/body-parser#1.16.0+20170307072947",
+    "connect-ensure-login": "registry:dt/connect-ensure-login#0.1.0+20170114000057",
+    "cookie-parser": "registry:dt/cookie-parser#1.3.4+20160428043022",
+    "express": "registry:dt/express#4.0.0+20170118060322",
+    "express-serve-static-core": "registry:dt/express-serve-static-core#4.0.0+20170217184459",
+    "jsonwebtoken": "registry:dt/jsonwebtoken#7.2.0+20161229235100",
+    "mime": "registry:dt/mime#0.0.0+20160428043022",
+    "nconf": "registry:dt/nconf#0.0.0+20170310065517",
+    "oauth2orize": "registry:dt/oauth2orize#1.5.1+20170117213237",
+    "passport-http": "registry:dt/passport-http#0.3.0+20161104204819",
+    "passport-http-bearer": "registry:dt/passport-http-bearer#1.0.1+20160708003644",
+    "passport-local": "registry:dt/passport-local#1.0.0+20161128184045",
+    "passport-oauth2-client-password": "registry:dt/passport-oauth2-client-password#0.1.2+20161125141439"
+  },
+  "globalDependencies": {
+    "connect-flash": "registry:dt/connect-flash#0.0.0+20160721174308",
+    "es6-shim": "registry:dt/es6-shim#0.31.2+20160726072212",
+    "express-session": "registry:dt/express-session#0.0.0+20161119044246",
+    "passport": "registry:dt/passport#0.3.0+20170207191958"
+  }
+}

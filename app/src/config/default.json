@@ -1,0 +1,43 @@
+{
+    "domain": "http://localhost:3000",
+    "port": 6001,
+    "compressionThreshold": 512,
+    "host": "localhost",
+    "staticFolderMount": "/assets",
+    "staticFolders": ["./assets"],
+    "maxAge": "1d",
+    "development": true,
+    "templateRoot": "templates",
+    "templateLayouts": "templates/layouts",
+    "passport.oauth2":{
+       "endpoint": "http://localhost:3002",
+       "loginURL": "/login",
+       "logoutURL": "/auth/logout",
+       "authorizationURL": "/auth/authorize",
+       "tokenURL": "/auth/token",
+       "clientID": "morewithus.app.dev",
+       "clientSecret": "xxxx",
+       "callbackURL": "/auth/callback",
+       "profileURL": "/api/auth/profile"
+     },
+    "session":{
+        "secret":"",
+        "maxage": 360000
+    },
+    "cookie":{
+        "secret":""
+    },
+    "app.keys":{
+        "cookie.returnTo": "returnTo"
+    },
+    "payments.paypal":{
+        "clientid.development": "",
+        "clientid.production": ""
+    },
+    "encryption.crypto":{
+        "algorithm": "AES-256-CBC",
+        "hmacAlgorithm": "SHA256",
+        "key": "",
+        "hmacKey": ""
+    }
+}

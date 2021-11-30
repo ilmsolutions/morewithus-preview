@@ -1,0 +1,23 @@
+{
+  "name": "vhost",
+  "version": "0.0.0",
+  "description": "Work With Me : Virtual Host",
+  "main": "src/app.ts",
+  "scripts": {
+    "postinstall": "grunt default",
+    "start": "node debug dist/app.js"
+  },
+  "author": "Mohammed Abdul Muqeet",
+  "dependencies": {
+    "@types/node": "^8.0.46",
+    "express": "^4.14.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "keywords": [],
+  "license": "ISC"
+}

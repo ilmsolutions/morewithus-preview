@@ -1,0 +1,527 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+	background-color: #eee;
+}
+
+.footer{
+	margin-top: 1em;
+}
+.footer a{
+	color: inherit;
+}
+
+.footer ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+.footer ul.inline li{
+	display: inline;
+	padding: 0 10px;
+	border-left: solid 1px #fff;
+}
+.footer ul.inline li:first-child{
+	border-left: none;
+	padding-left: 0;
+}
+
+.footer .nav-link{
+	display: inline;
+	padding:0;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-top:-20px;
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  bottom: 3rem;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+.badge{
+	margin:1px;
+}
+
+.content{
+	/*margin-top:0.8rem;  */
+	max-width: 1200px;
+  margin: 1.5rem auto;
+}
+
+.navbar.fixed-top{
+	max-width: 1140px;
+	margin: auto;
+}
+
+.main-page {
+	min-height: 50vh;
+}
+
+
+.wide-main-page{
+	min-height: 50vh;
+}
+
+.main-page .front-banner .card-img{
+/*	height: 270px; */
+	width: 100%; 
+	display: block;
+}
+
+.main-page .front-banner .card-img-overlay{
+  top: 35%;
+}
+
+.form-lg{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+i.input-group-text{
+	line-height: inherit;
+}
+
+form, .form{
+  margin:auto;
+}
+
+.footer .form{
+	margin: none;
+}
+
+.registration-form, .change-password-form, .form-lg{
+	max-width:600px; 
+	width:100%;
+}
+
+.form-group label, .col label{
+   font-weight: bold;
+	 padding-bottom: 0.1rem;
+	 margin-bottom: 0.1rem;
+	 margin-right: 0.5rem;
+}
+
+
+.form-group .form-control-static
+{
+  padding-top:0;
+}
+
+.form .btn{
+  margin: 5px;
+}
+
+
+.form-box {
+	padding-top: 20px;
+	display:flex;
+}
+
+.form-top {
+	overflow: hidden;
+	padding: 0 25px 0 25px;
+	background: #fff;
+	-moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0;
+	text-align: left;
+}
+
+.form-top-left {
+	float: left;
+	width: 75%;
+	padding-top: 25px;
+}
+
+.form-top-left h3 { margin-top: 0; }
+
+.form-top-right {
+	float: left;
+	width: 25%;
+	padding-top: 5px;
+	font-size: 55px;
+	color: #ddd;
+	line-height: 65px;
+	text-align: right;
+}
+
+.form-bottom {
+	padding: 25px 25px 30px 25px;
+	background: #eee;
+	-moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;
+	text-align: left;
+}
+
+.visible{
+  display:block;
+}
+
+.hidden{
+  display: none;
+}
+
+.card.disabled{
+	color: #ccc;
+	background-color: #f9f9f9!important;
+}
+
+.link{
+	cursor: pointer;
+}
+
+.data-grid a{
+  margin: 0 0.5rem;
+}
+
+.modal.show{
+	display:block;
+}
+
+#progressbar {
+	margin-bottom: 20px;
+	overflow: hidden;
+	/*CSS counters to number the steps*/
+	counter-reset: step;
+}
+#progressbar li {
+	list-style-type: none;
+	color: black;
+	text-transform: uppercase;
+	/*font-size: 9px;*/
+	width: 33.33%;
+	float: left;
+	position: relative;
+	text-align:center;
+}
+#progressbar li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 20px;
+	line-height: 20px;
+	display: block;
+	/*font-size: 10px;*/
+	color: #333;
+	background: white;
+	border-radius: 3px;
+	margin: 0 auto 5px auto;
+}
+/*progressbar connectors*/
+#progressbar li:after {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: white;
+	position: absolute;
+	left: -50%;
+	top: 9px;
+	z-index: -1; /*put it behind the numbers*/
+}
+#progressbar li:first-child:after {
+	/*connector not needed before the first step*/
+	content: none;
+}
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+#progressbar li.active:before,  #progressbar li.active:after{
+	background: #27AE60;
+	color: white;
+}
+
+fieldset, .fieldset {
+box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+}
+
+.check-box-list{
+	display: inline-block;
+}
+
+.check-box-list input{
+	margin-right: 0.25rem;
+}
+
+.check-box-list label,
+.dropdown-menu label {
+	font-weight: normal;
+}
+
+.dropdown .dropdown-toggle .dropdown-label{
+   display:inline-block;
+   width:95%;
+}
+
+.dropdown .dropdown-toggle .dropdown-label span{
+	display:inline-block;
+	margin:0.2rem;
+	padding:0.2rem;
+	font-size:0.8rem;
+	border:solid 0.5px;
+	border-radius:0.2rem;
+}
+
+.dropdown-label span i{
+	margin-left: 0.1rem;
+	margin-right: 0.1rem;
+	color: lightslategray;
+}
+
+.dropdown .dropdown-menu{
+  width:100%;
+	padding:5px;
+	margin-top:0.65rem;
+}
+
+.dropdown-menu .card{
+	border:none;
+}
+
+.dropdown-menu .form-check-inline{
+	margin-left:0.25rem;
+	margin-bottom:0.25rem;
+	font-size:0.9rem;
+}
+
+textarea{
+	resize: none;
+}
+
+textarea + span.badge {
+    margin-top: -20px;
+		margin-right: 5px;
+}
+/* validation markup */
+input.active:valid, select.active:valid, 
+textarea.active:valid, 
+.check-box-list.valid, .select-box-list.valid,
+.input-list.valid, .input-group-btn .btn.valid
+{
+  /*box-shadow: 0 0 5px 1px green;
+	opacity:0.8;*/
+	border:solid 0.5px green;
+}
+
+input.active:invalid, select.active:invalid,
+textarea.active:invalid,
+.check-box-list.invalid, .select-box-list.invalid,
+.input-list.invalid, .input-group-btn .btn.invalid,
+ {
+ /* box-shadow: 0 0 5px 1px red;
+	opacity:0.8;*/
+	border: solid 0.5px red;
+}
+
+.error {
+  color: red;
+  font-size: 0.75em;
+}
+
+.display-modal .modal{
+     position:relative;
+     top:auto;
+     left:auto;
+     right:auto;
+     bottom:auto;
+     display:block;
+}
+
+.btn-circle {
+	width: 30px;
+	height: 30px;
+	padding: 6px 0px;
+	border-radius: 15px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 1.42857;
+}
+
+.btn-200{
+	width:200px;
+}
+
+.private-information{
+	background-color: #333; 
+	border-color: #333;
+}
+
+.private-information .card-block{
+   padding: 0.25rem;
+}
+
+
+.private-information.show{
+   display:block;
+}
+
+.private-information.hide dd {
+	color: transparent;
+	text-shadow: 0 0 5px rgba(255, 255, 255, 1);
+}
+
+.private-information.show .card-footer{
+  display:none;
+}
+.private-information.hide .card-footer{
+   display:block;
+}
+
+/* Animation for registration steps */
+.step-enter {
+  opacity: 0.01;
+}
+
+.step-enter.step-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.step-leave {
+  opacity: 1;
+}
+
+.step-leave.step-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+.user-card{
+	margin-bottom: 1rem!important;
+}
+
+.list .back-to-search-results{
+	display:none;
+}
+
+
+.slide-enter.left {
+	transform: translate(-100%);
+}
+.slide-enter.slide-enter-active.left {
+	transform: translate(0%);
+	transition: transform 0.5s ease-in-out;
+}
+.slide-leave.left {
+	transform: translate(-100%);
+}
+.slide-leave.slide-leave-active.left {
+	transform: translate(0%);
+	transition: transform 0.5s ease-in-out;
+}
+.slide-enter.right {
+	transform: translate(0%);
+}
+.slide-enter.slide-enter-active.right {
+	transform: translate(-100%);
+	transition: transform 0.5s ease-in-out;
+}
+.slide-leave.right {
+	transform: translate(0%);
+}
+.slide-leave.slide-leave-active.right {
+	transform: translate(-100%);
+	transition: transform 0.5s ease-in-out;
+}
+
+
+
+.collapseslide-enter {
+	height: 0px;
+}
+.collapseslide-enter.collapseslide-enter-active {
+	height: 100%;
+	transition: height .3s ease;
+}
+.collapseslide-leave.collapseslide-leave-active {
+	height: 0px;
+	transition: height .3s ease;
+}
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+
+}
+
+.fade-leave{
+  opacity: 1;
+}
+
+.fade-leave.fade-leave-active {
+ opacity: 0.01;
+ transition: opacity .5s ease-in;
+}
+
+.configuration-container{
+	max-width:700px;
+	padding:10px;
+}
+
+.table thead tr th {
+  background-color: #212529;
+	border-color: #32383e;
+	color: #fff;
+}
+
+
+.smaller{
+  font-size: 80%;
+}
+
+.strikethrough {
+	position: relative;	
+}
+
+.strikethrough.small, .strikethrough .smaller{
+	 font-weight:lighter;
+	 font-size: 80%;
+}
+
+
+.display-4 .small, .display-4 .smaller{
+  font-size: 60%;
+}
+
+.strikethrough:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  right: 0;
+  border-top: 1px solid;
+  border-color: inherit;
+  border-width: 0.1em;
+  -webkit-transform:rotate(-25deg);
+  -moz-transform:rotate(-25deg);
+  -ms-transform:rotate(-25deg);
+  -o-transform:rotate(-25deg);
+  transform:rotate(-25deg);
+}
+
+/*
+.configuration-container .card form{
+	padding:10px;
+}
+
+.configuration-container .custom-select{
+	margin:5px;
+}*/

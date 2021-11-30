@@ -1,0 +1,22 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.navbar.fixed-top{
+	max-width: 1140px;
+	margin: auto;
+}
+
+/*
+.login-panel, .signup-panel, .decision-panel{
+  margin-top:25%;
+}
+*/
+
+.margin-top{
+  margin-top: 5px;
+}
+
+

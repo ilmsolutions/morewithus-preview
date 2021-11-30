@@ -1,0 +1,1 @@
+{"version":3,"file":"config.js","sourceRoot":"","sources":["../../../src/routers/handlers/config.ts"],"names":[],"mappings":";;;;;;;;;;;;;AAAA,oDAAiD;AAEjD,SAAgB,UAAU,CAAC,IAAI,EAAE,MAAc;IAC3C,OAAO,eAAM,CAAC,IAAI,YAAE,IAAI,EAAE,IAAI,IAAK,MAAM,GAAG,UAAC,GAAG,EAAE,OAAO;QACrD,IAAG,GAAG;YACJ,OAAO,IAAI,CAAC;QACd,OAAO,OAAO,CAAC;IACnB,CAAC,CAAC,CAAC;AACP,CAAC;AAND,gCAMC"}

@@ -1,0 +1,22 @@
+[
+    {
+        "label":"within 5 miles",
+        "value": "5"
+    }
+    ,{
+        "label": "within 10 miles",
+        "value": "10"
+    }
+    ,{
+        "label": "within 25 miles",
+        "value": "25"
+    }
+    ,{
+        "label": "within 50 miles",
+        "value": "50"
+    }
+    ,{
+        "label": "within 100 miles",
+        "value": "100"
+    }
+]

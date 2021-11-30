@@ -1,0 +1,22 @@
+[
+    {
+        "label": "Anytime of the day",
+        "value": "Anytime"
+    },
+    {
+        "label": "Morning",
+        "value": "Morning"
+    },
+    {
+        "label": "Afternoon",
+        "value": "Afternoon"
+    },
+    {
+        "label": "Evening",
+        "value": "Evening"
+    },
+    {
+        "label": "Night",
+        "value": "Night"
+    }        
+]

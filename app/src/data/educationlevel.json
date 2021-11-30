@@ -1,0 +1,30 @@
+[
+    {
+        "label": "High School Diploma",
+        "value": "High School Diploma"
+    },
+    {
+        "label": "In College",
+        "value": "In College"
+    },
+    {
+        "label": "Associate Degree",
+        "value": "Associate Degree"
+    },
+    {
+        "label": "Technical Certificate",
+        "value": "Technical Certificate"
+    },
+    {
+        "label": "Bachelor's Degree",
+        "value": "Bachelor's Degree"
+    },
+    {
+        "label": "Graduate Degree",
+        "value": "Graduate Degree"
+    },
+    {
+        "label": "None of the above",
+        "value": "None of the above"
+    }                        
+]

@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/4300f138765e9828dce35ef199cc961939148086/connect-ensure-login/index.d.ts",
+    "raw": "registry:dt/connect-ensure-login#0.1.0+20170114000057",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/4300f138765e9828dce35ef199cc961939148086/connect-ensure-login/index.d.ts"
+  }
+}

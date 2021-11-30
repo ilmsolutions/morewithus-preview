@@ -1,0 +1,85 @@
+[
+   {
+     "usertype": "Individual",
+     "usercontext": "Employee",
+     "features":{
+         "1" : "Market yourself to potential employers by logging in atleast once in three days."
+     },
+     "plans":[
+         {
+             "id": "Employee.User",
+             "title": "",
+             "duration": null,
+             "price": null,
+             "description": "",
+             "features":["1"]
+         }
+     ]
+   },
+    {
+        "usertype": "Organization",
+        "usercontext": "Employee",
+        "features":{
+            "1" : "Increased visibility"
+        },
+        "plans":[
+        {
+            "id": "Employee.Weekly",
+            "title": "Weekly",            
+            "duration": "7d",
+            "price": 20,
+            "description": "",
+            "features":["1"]
+        },
+        {
+            "id": "Employee.Monthly",
+            "title": "Monthly",
+            "duration": "1mt",
+            "price": 100,
+            "description": "",
+            "features":["1"]
+        },
+        {
+            "id": "Employee.Annual",
+            "title": "Annual",
+            "duration": "1yr",
+            "price": 250,
+            "description": "",
+            "features":["1"]
+        }
+        ]
+    },
+    {
+        "usertype": "Individual, Organization",
+        "usercontext": "Employer",
+        "features": {
+            "1": "Contact Information of potential employees"
+        },
+        "plans":[
+        {
+            "id": "Employer.Weekly",
+            "title": "Weekly",
+            "duration": "7d",
+            "price": 10,
+            "description": "",
+            "features":["1"]
+        },
+        {
+            "id": "Employer.Monthly",           
+            "title": "Monthly",
+            "duration": "1mt",
+            "price": 50,
+            "description": "",
+            "features":["1"]
+        },
+        {
+            "id": "Employer.Annual",
+            "title": "Annual",
+            "duration": "1yr",
+            "price": 150,
+            "description": "",
+            "features":["1"]
+        }
+        ]        
+    }
+]

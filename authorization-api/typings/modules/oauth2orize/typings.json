@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/4fe08fc9e66f6b95a96f059e64c8eb0e542b7ebf/oauth2orize/index.d.ts",
+    "raw": "registry:dt/oauth2orize#1.5.1+20170117213237",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/4fe08fc9e66f6b95a96f059e64c8eb0e542b7ebf/oauth2orize/index.d.ts"
+  }
+}

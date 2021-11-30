@@ -1,0 +1,114 @@
+[
+    {
+        "label": "Cleaning, Construction, Factory, Maintenance, and Vehicles",
+        "value": "Cleaning, Construction, Factory, Maintenance, and Vehicles",
+        "children":[
+            {"label": "Laundry and dry cleaning", "value": "Laundry and dry cleaning"},
+            {"label": "Landscaping, lawns and gardens", "value": "Landscaping, lawns and gardens"},
+            {"label": "Snow removal", "value": "Snow removal"},
+            {"label": "Carwash", "value": "Carwash"},
+            {"label": "Vehicle maintenance", "value": "Vehicle maintenance"},
+            {"label": "Handyman repair", "value": "Handyman repair"},
+            {"label": "Hardware and furniture ", "value": "Hardware and furniture "},
+            {"label": "Construction", "value": "Construction"},
+            {"label": "Cleaning (building and grounds maintenance)", "value": "Cleaning (building and grounds maintenance)"},
+            {"label": "Transportation and moving", "value": "Transportation and moving"},
+            {"label": "Delivery and courier", "value": "Delivery and courier"},
+            {"label": "Warehouse and storage", "value": "Warehouse and storage"},
+            {"label": "Factory", "value": "Factory"}
+        ]
+    },
+    {
+        "label": "Health, Social, and Personal Services",
+        "value": "Health, Social, and Personal Services",
+        "children":[
+           {"label": "Sports and physical fitness", "value": "Sports and physical fitness"},
+           {"label": "Massage, spa, tanning", "value": "Massage, spa, tanning"},
+           {"label": "Healthcare (general)", "value": "Healthcare (general)"},
+           {"label": "Nursing homes", "value": "Nursing homes"},
+           {"label": "Group home", "value": "Group home"},
+           {"label": "Assisted living", "value": "Assisted living"},
+           {"label": "Childcare", "value": "Childcare"},
+           {"label": "Senior care", "value": "Senior care"},
+           {"label": "Pets", "value": "Pets"},
+           {"label": "House sitter", "value": "House sitter"},
+           {"label": "House cleaning", "value": "House cleaning"},
+           {"label": "Hair and beauty (men)", "value": "Hair and beauty (men)"},
+           {"label": "Hair, nails and beauty (women)", "value": "Hair, nails and beauty (women)"},
+           {"label": "Hair (African braiding)", "value": "Hair (African braiding)"},
+           {"label": "Tutoring, learning, and education", "value": "Tutoring, learning, and education"}
+        ]
+    },
+    {
+        "label": "Retail and Stores",
+        "value": "Retail and Stores",
+        "children":[
+          {"label": "Gas station", "value": "Gas station"},
+          {"label": "General merchandise and distribution", "value": "General merchandise and distribution"},
+          {"label": "Thrift shop", "value": "Thrift shop"},
+          {"label": "Grocery", "value": "Grocery"},
+          {"label": "Organic foods", "value": "Organic foods"},
+          {"label": "Pet supplies", "value": "Pet supplies"},
+          {"label": "Vitamins, supplements, health, pharmacy", "value": "Vitamins, supplements, health, pharmacy"},
+          {"label": "Sporting, hobby, books, arts, antiques", "value": "Sporting, hobby, books, arts, antiques"},
+          {"label": "Flowers and plants", "value": "Flowers and plants"},          
+          {"label": "Gifts", "value": "Gifts"},
+          {"label": "Children goods", "value": "Children goods"},
+          {"label": "Beauty supplies", "value": "Beauty supplies"},
+          {"label": "Clothing, shoes, and accessories", "value": "Clothing, shoes, and accessories"},
+          {"label": "Furniture and home furnishings", "value": "Furniture and home furnishings"},
+          {"label": "Electronics, appliances, spare parts", "value": "Electronics, appliances, spare parts"}
+        ]
+    },
+    {
+        "label": "Agriculture and Nature",
+        "value": "Agriculture and Nature",
+        "children":[
+           {"label": "Farming", "value": "Farming"},
+           {"label": "Fruits and vegetables", "value": "Fruits and vegetables"},
+           {"label": "Diary and meat", "value": "Diary and meat"},
+           {"label": "Fishing and fish products", "value": "Fishing and fish products"},
+           {"label": "Farm animals and poultry", "value": "Farm animals and poultry"},
+           {"label": "Forestry and hunting", "value": "Forestry and hunting"}
+        ]
+    },
+    {
+        "label": "Food and Hospitality",
+        "value": "Food and Hospitality",
+        "children":[
+          {"label": "Food services and catering", "value": "Food services and catering"},
+          {"label": "Pizza", "value": "Pizza"},
+          {"label": "Bakery, ice-cream, café, confectionery", "value": "Bakery, ice-cream, café, confectionery"},
+          {"label": "Fast food", "value": "Fast food"},
+          {"label": "Restaurant and dining", "value": "Restaurant and dining"},
+          {"label": "Hotel and motel", "value": "Hotel and motel"}         
+        ]
+    },
+    {
+        "label": "Offices, Data, and Information",
+        "value": "Offices, Data, and Information",
+        "children":[
+            {"label": "Office support and reception", "value": "Office support and reception"},
+            {"label": "Banks and financial services", "value": "Banks and financial services"},
+            {"label": "Data processing and online work", "value": "Data processing and online work"},
+            {"label": "Telemarketing and phone banks", "value": "Telemarketing and phone banks"},
+            {"label": "Printing and graphics", "value": "Printing and graphics"},
+            {"label": "Computers, phones, and gadgets", "value": "Computers, phones, and gadgets"},
+            {"label": "Media communication", "value": "Media communication"},
+            {"label": "Rental and leasing services", "value": "Rental and leasing services"}                                                                           
+        ]
+    },
+    {
+        "label": "Entertainment, Recreation, and Arts",
+        "value": "Entertainment, Recreation, and Arts",
+        "children":[
+           {"label": "Recreation, sightseeing, and camping", "value": "Recreation, sightseeing, and camping"},
+           {"label": "Skiing", "value": "Skiing"},
+           {"label": "Boats and water", "value": "Boats and water"},
+           {"label": "Music, games, and recording", "value": "Music, games, and recording"},
+           {"label": "Theatre and performing arts", "value": "Theatre and performing arts"},
+           {"label": "Arts and photography", "value": "Arts and photography"},
+           {"label": "Event planning", "value": "Event planning"}
+        ]
+    }                                          
+]

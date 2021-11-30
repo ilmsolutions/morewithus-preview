@@ -1,0 +1,153 @@
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="../assets/favicon.ico?v=004" type="image/x-icon" />
+    <title>App</title>
+    <link rel="stylesheet" href="../assets/libs/bootstrap/v4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/libs/font-awesome/v4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+</head>
+<body>
+    <div class="container">
+       <div class="row">
+          <div id="accordion">
+             <div class="card">
+                <div class="card-header">
+                  <h5>
+                  <a data-toggle="collapse" data-parent="#accordion" href="#who-am-i">
+                  <i class="fa fa-id-card"></i> Who am I?
+                  </a>
+                  </h5>
+                </div>
+                <div id="who-am-i" class="collapse fade show">
+                   <div class="card-block">
+                       <div class="form-group row">
+                           <label class="col-2 col-form-label">Email</label>
+                           <div class="col-10">
+                              <p class="form-control-static">email@email.com</p>
+                           </div>
+                       </div>
+                       <div class="row">
+                          <div class="form-group col-6">
+                             <label for="inputFirstName">First Name</label>
+                             <input type="text" class="form-control" id="inputFirstName" placeholder="First Name" />
+                          </div>
+                          <div class="form-group col-6">
+                             <label for="inputLastName">Last Name</label>
+                             <input type="text" class="form-control" id="inputLastName" placeholder="Last Name" />
+                          </div>
+                       </div>
+                       <div class="row">
+                          <div class="form-group col-sm">
+                             <label for="inputPhoneNumber">Phone Number</label>
+                             <input type="tel" class="form-control" id="inputPhoneNumber" placeholder="Phone Number" />
+                          </div>
+                          <div class="form-group col-sm">
+                             <label for="selectAge">Age</label>
+                             <select class="form-control" id="selectAge">
+                                  <option selected>Select age range</option>
+                                  <option value="1824">18-24 years</option>
+                                  <option value="2530">25-30 years</option>
+                                  <option value="3135">31-35 years</option>
+                                  <option value="over35">above 35 years</option>
+                             </select>
+                          </div>
+                       </div>
+                       <div class="row">
+                         <div class="form-group col-12">
+                           <label for="inputAddress1">Street Address 1</label>
+                           <input type="text" class="form-control" id="inputAddress1" placeholder="Street address, P O box, company name" />
+                         </div>
+                       </div>
+                       <div class="row">
+                         <div class="form-group col-12">
+                           <label for="inputAddress2">Street Address 2</label>
+                           <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, suite, unit, building, floor, etc." />
+                         </div>
+                       </div>
+
+                       <div class="row">
+                         <div class="form-group col-6">
+                            <label for="inputCity">City</label>
+                            <input type="text" class="form-control" id="inputCity" placeholder="City" />
+                         </div>
+                         <div class="form-group col-6">
+                           <label for="selectState">State</label>
+                           <select class="form-control" id="selectState">
+								 <option selected>Select State</option>
+								 <option value="il">Illinois</option>
+                             </select>
+                         </div>
+                       </div>
+
+                       <div class="row">
+                         <div class="form-group col-6">
+                            <label for="inputZipCode">Zip Code</label>
+                            <input type="text" class="form-control" id="inputZipCode" placeholder="Zip Code" />
+                         </div>
+                       </div>
+
+                   </div>
+                </div>
+             </div><!--card-->
+             <div class="card">
+                <div class="card-header">
+                  <h5>
+                  <a data-toggle="collapse" data-parent="#accordion" href="#what-am-i-looking-for">
+                  <i class="fa fa-bullseye"></i> What am I looking for?
+                  </a>
+                  </h5>
+                </div>
+                <div id="what-am-i-looking-for" class="collapse fade">
+                   <div class="card-block">
+                      content for what am i looking for  goes here
+                   </div>
+                </div>
+             </div><!--card-->
+             <div class="card">
+                <div class="card-header">
+                  <h5>
+                  <a data-toggle="collapse" data-parent="#accordion" href="#why-hire-me">
+                  <i class="fa fa-bullhorn"></i> Why hire me?
+                  </a>
+                  </h5>
+                </div>
+                <div id="why-hire-me" class="collapse fade">
+                   <div class="card-block">
+                      content for why hire me goes here.
+                   </div>
+                </div>
+             </div><!--card-->
+          </div> <!--accordion-->
+       </div>
+    </div>
+</body>
+    <script type="text/javascript" src="../assets/libs/jquery/v3.1.1/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../assets/libs/bootstrap/v4.0.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../assets/libs/jquery-validation/v1.16.0/jquery.validate.min.js"></script>
+    <script type="text/javascript">
+       $(document).ready(function(){
+           $('#validate-form').validate({
+                 rules:{
+                    firstname:{required: true, minlength: 3},
+                    lastname:{required: true, minlength: 3},
+                    email:{required: true, email: true},
+                    password:{required: true, minlength: 5}
+                 },
+                 errorClass: 'form-control-danger',
+                 validClass: 'form-control-success',
+                 highlight: function(element, errorClass){
+                     $(element).parent('.form-group').removeClass('has-success').addClass('has-danger');
+                     $(element).addClass(errorClass);
+                 },
+                 unhighlight: function(element, validClass){
+                     $(element).parent('.form-group').removeClass('has-danger').addClass('has-success');
+                     $(element).addClass(validClass);
+                 }
+           });
+       });
+    </script>
+    <div class="backstretch" style="left: 0px; top: 0px; overflow: hidden; margin: 0px; padding: 0px; height: 613px; width: 739px; z-index: -999999; position: fixed;"><img src="../assets/img/backgrounds/1.jpg" style="position: absolute; margin: 0px; padding: 0px; border: none; width: 919.5px; height: 613px; max-height: none; max-width: none; z-index: -999999; left: -90.25px; top: 0px;"></div>
+</html>

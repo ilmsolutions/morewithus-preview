@@ -1,0 +1,48 @@
+{
+    "domain": "http://localhost:3002",
+    "port": 3002,
+    "compressionThreshold": 512,
+    "host": "localhost",
+    "staticFolderMount": "/assets",
+    "staticFolders": ["./assets"],
+    "maxAge": "1d",
+    "development": true,
+    "templateRoot": "templates",
+    "templateLayouts": "templates/layouts",
+    "db": {
+        "connect": "", 
+        "options": {
+            "socketTimeoutMS": 0,
+            "keepAlive": true,
+            "reconnectTries": 30,
+            "useMongoClient": true             
+        }
+    },
+    "session":{
+        "secret":"",
+        "maxage": 360000
+    },
+    "cache":{
+        "maxage": 36000
+    },
+    "token":{
+       "secret": "",
+       "expiresin": 3000
+    },
+    "certs":{
+        "privatekey": "certs/privatekey.pem",
+        "publickey": "certs/publickey.pem"
+    },
+    "keys":{
+        "googleMaps": ""
+    },
+    "encryption.crypto":{
+        "algorithm": "AES-256-CBC",
+        "hmacAlgorithm": "SHA256",
+        "key": "",
+        "hmacKey": ""
+    },
+    "accounts":{
+
+    }
+}

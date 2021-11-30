@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/ba4a6c2e987dfd56db599317d743855a02f3b1f7/passport-oauth2-client-password/index.d.ts",
+    "raw": "registry:dt/passport-oauth2-client-password#0.1.2+20161125141439",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/ba4a6c2e987dfd56db599317d743855a02f3b1f7/passport-oauth2-client-password/index.d.ts"
+  }
+}

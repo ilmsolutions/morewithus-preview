@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+
+body{
+	color:#070707;
+	background-color: #e4e4e4;
+	font-family: 'Roboto', sans-serif, 'FontAwesome' !important;
+}
+
+.bg-light{
+	background-color: #e4e4e4!important;
+	-webkit-box-shadow: 0 8px 6px -6px #ccc;
+	-moz-box-shadow: 0 8px 6px -6px #ccc;
+    box-shadow: 0 8px 6px -6px #ccc;
+}
+
+.bg-light .nav-link{
+	color: #070707!important;
+}
+
+.highlight, .highlight:hover
+,.nav-link:hover{
+	color:#f66905!important;
+}
+
+.btn-primary
+, .btn-primary.disabled, .btn-primary:disabled
+{
+	background-color: #e66204;
+	border-color: #a14504;
+	color: #fff;
+}
+
+.navbar-toggler {
+	cursor: pointer;
+	outline: 0;
+}
+
+.navbar-toggler-icon{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(46, 05, 51, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+.btn-primary:hover
+, .btn-primary:focus, .btn-primary.focus
+, .btn-primary:active, .btn-primary.active 
+, .btn-primary:active:hover
+, .btn-primary:active:focus, .btn-primary:active.focus
+, .btn-primary.active:hover, .btn-primary.active:focus, .btn-primary.active.focus
+, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active
+ {
+	background-color: #a14504;
+	border-color: #a14504;
+ }
+
+ .btn-primary.disabled, .btn-primary:disabled{
+	 opacity: 0.5em;
+ }
+
+ .btn-secondary
+, .btn-secondary:hover
+, .btn-secondary:focus, .btn-secondary.focus
+, .btn-secondary:active, .btn-secondary.active 
+, .btn-secondary:active:hover
+, .btn-secondary:active:focus, .btn-secondary:active.focus
+, .btn-secondary.active:hover, .btn-secondary.active:focus, .btn-secondary.active.focus
+
+ {
+	background: #f7b632 none repeat scroll 0 0;
+	border:1px solid #fff;
+ }
+
+ .background{
+    background: url(/assets/images/bg-images/login.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    margin-bottom: 1em;	 
+ }
+
+ .panel{
+	padding: 32px;
+ }
+ .panel-dark{
+	background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+ }
+
+ .form-control{
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+ }
